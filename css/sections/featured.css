@@ -1,0 +1,454 @@
+.featured {
+  position: relative;
+  min-width: 100%;
+  top: 0px;
+  bottom: 200px;
+  height: 100vh;
+  background: black; }
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .featured {
+      height: 900px; } }
+  @media (min-width: 650px) and (max-width: 900px) {
+    .featured {
+      position: relative;
+      height: 1515px; } }
+  @media (max-width: 650px) {
+    .featured {
+      position: relative;
+      top: 0;
+      height: 1200px; } }
+  @media (max-width: 400px) {
+    .featured {
+      position: relative;
+      top: 0;
+      height: 1200px; } }
+  .featured .featured-container {
+    position: absolute;
+    top: 0%;
+    right: 20%;
+    left: 20%;
+    height: 100vh;
+    background: #e6e6e6;
+    max-width: 1200px;
+    z-index: 1; }
+    @media (min-width: 900px) and (max-width: 1200px) {
+      .featured .featured-container {
+        height: 900px;
+        right: 10%;
+        left: 10%; } }
+    @media (min-width: 650px) and (max-width: 900px) {
+      .featured .featured-container {
+        position: relative;
+        left: 5%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        height: 1200px;
+        width: 90%; } }
+    @media (max-width: 650px) {
+      .featured .featured-container {
+        position: relative;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        height: 1200px; } }
+    @media (max-width: 400px) {
+      .featured .featured-container {
+        position: relative;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        height: 1200px; } }
+    .featured .featured-container .option_featured-option-1 .image-1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 300px;
+      width: 66.66%; }
+      @media (max-width: 900px) {
+        .featured .featured-container .option_featured-option-1 .image-1 {
+          padding: 0;
+          position: absolute;
+          right: 0;
+          top: 200px;
+          height: 200px;
+          width: 100%;
+          height: 300px; } }
+      @media (max-width: 650px) {
+        .featured .featured-container .option_featured-option-1 .image-1 {
+          padding: 0;
+          position: absolute;
+          right: 0;
+          top: 200px;
+          height: 200px;
+          width: 100%; } }
+      @media (max-width: 400px) {
+        .featured .featured-container .option_featured-option-1 .image-1 {
+          padding: 0;
+          position: absolute;
+          right: 0;
+          top: 200px;
+          height: 200px;
+          width: 100%; } }
+    .featured .featured-container .option_featured-option-1 .headline-1 {
+      padding: 0;
+      position: absolute;
+      top: 50px;
+      left: 68%;
+      right: 12%;
+      width: 31%;
+      text-align: center; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .featured .featured-container .option_featured-option-1 .headline-1 {
+          padding: 0;
+          position: absolute;
+          top: 50px;
+          left: 68%;
+          right: 12%;
+          width: 31%;
+          text-align: center; } }
+      @media (max-width: 900px) {
+        .featured .featured-container .option_featured-option-1 .headline-1 {
+          display: flex;
+          position: unset;
+          padding: 20px 0px 20px 0px;
+          justify-content: center;
+          margin: auto;
+          width: 100%; } }
+      @media (max-width: 650px) {
+        .featured .featured-container .option_featured-option-1 .headline-1 {
+          display: flex;
+          position: unset;
+          padding: 20px 0px 20px 0px;
+          justify-content: center;
+          margin: auto;
+          width: 100%; } }
+      @media (max-width: 400px) {
+        .featured .featured-container .option_featured-option-1 .headline-1 {
+          display: flex;
+          position: unset;
+          padding: 20px 0px 20px 0px;
+          justify-content: center;
+          margin: auto;
+          width: 100%; } }
+    .featured .featured-container .option_featured-option-1 .par-1 {
+      position: absolute;
+      top: 125px;
+      right: 6%;
+      padding: 0;
+      width: 22%;
+      text-align: center; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .featured .featured-container .option_featured-option-1 .par-1 {
+          position: absolute;
+          top: 125px;
+          right: 6%;
+          padding: 0;
+          width: 22%;
+          text-align: center; } }
+      @media (max-width: 900px) {
+        .featured .featured-container .option_featured-option-1 .par-1 {
+          position: absolute;
+          right: 0;
+          left: 5%;
+          top: 6.5%;
+          text-align: center;
+          width: 90%;
+          padding: 15px 0px 0px 0px; } }
+      @media (max-width: 650px) {
+        .featured .featured-container .option_featured-option-1 .par-1 {
+          position: absolute;
+          right: 0;
+          left: 0;
+          top: 50px;
+          text-align: center;
+          width: 90%;
+          padding-left: 10px;
+          padding-right: 0;
+          padding-top: 15px; } }
+      @media (max-width: 400px) {
+        .featured .featured-container .option_featured-option-1 .par-1 {
+          position: absolute;
+          right: 0;
+          left: 0;
+          top: 50px;
+          text-align: center;
+          width: 90%;
+          padding-left: 10px;
+          padding-right: 0;
+          padding-top: 15px; } }
+    .featured .featured-container .option_featured-option-2 .image-2 {
+      position: absolute;
+      top: 300px;
+      left: 0;
+      height: 300px;
+      width: 33.33%; }
+      @media (max-width: 900px) {
+        .featured .featured-container .option_featured-option-2 .image-2 {
+          padding: 0;
+          position: absolute;
+          left: 0%;
+          top: 700px;
+          height: 300px;
+          width: 50%; } }
+      @media (max-width: 650px) {
+        .featured .featured-container .option_featured-option-2 .image-2 {
+          padding: 0;
+          position: absolute;
+          left: 0%;
+          top: 600px;
+          height: 200px;
+          width: 50%; } }
+      @media (max-width: 400px) {
+        .featured .featured-container .option_featured-option-2 .image-2 {
+          padding: 0;
+          position: absolute;
+          left: 0%;
+          top: 600px;
+          height: 200px;
+          width: 50%; } }
+    .featured .featured-container .option_featured-option-2 .headline-2 {
+      padding: 0;
+      position: absolute;
+      top: 330px;
+      left: 34%;
+      right: 12%;
+      width: 31%;
+      text-align: center; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .featured .featured-container .option_featured-option-2 .headline-2 {
+          padding: 0;
+          position: absolute;
+          top: 330px;
+          left: 34%;
+          right: 12%;
+          width: 31%;
+          text-align: center; } }
+      @media (max-width: 900px) {
+        .featured .featured-container .option_featured-option-2 .headline-2 {
+          padding: 0;
+          position: absolute;
+          top: 520px;
+          left: 0%;
+          right: 0%;
+          width: 100%;
+          text-align: center; } }
+      @media (max-width: 650px) {
+        .featured .featured-container .option_featured-option-2 .headline-2 {
+          padding: 0;
+          position: absolute;
+          top: 35%;
+          left: 0%;
+          right: 0%;
+          width: 100%;
+          text-align: center; } }
+      @media (max-width: 400px) {
+        .featured .featured-container .option_featured-option-2 .headline-2 {
+          padding: 0;
+          position: absolute;
+          top: 35%;
+          left: 0%;
+          right: 0%;
+          width: 100%;
+          text-align: center; } }
+    .featured .featured-container .option_featured-option-2 .par-2 {
+      position: absolute;
+      top: 400px;
+      right: 6%;
+      left: 39%;
+      padding: 0;
+      width: 22%;
+      text-align: center; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .featured .featured-container .option_featured-option-2 .par-2 {
+          position: absolute;
+          top: 400px;
+          right: 6%;
+          left: 39%;
+          padding: 0;
+          width: 22%;
+          text-align: center; } }
+      @media (max-width: 900px) {
+        .featured .featured-container .option_featured-option-2 .par-2 {
+          position: absolute;
+          right: 0;
+          left: 5%;
+          top: 47%;
+          text-align: center;
+          width: 90%;
+          padding: 15px 0px 0px 0px; } }
+      @media (max-width: 650px) {
+        .featured .featured-container .option_featured-option-2 .par-2 {
+          position: absolute;
+          right: 0;
+          left: 0;
+          top: 37%;
+          text-align: center;
+          width: 90%;
+          padding-left: 10px;
+          padding-right: 0;
+          padding-top: 15px; } }
+      @media (max-width: 400px) {
+        .featured .featured-container .option_featured-option-2 .par-2 {
+          position: absolute;
+          right: 0;
+          left: 0;
+          top: 37%;
+          text-align: center;
+          width: 90%;
+          padding-left: 10px;
+          padding-right: 0;
+          padding-top: 15px; } }
+    .featured .featured-container .option_featured-option-2 .right-featured-image {
+      position: absolute;
+      top: 300px;
+      right: 0;
+      height: 300px;
+      width: 33.33%; }
+      @media (max-width: 900px) {
+        .featured .featured-container .option_featured-option-2 .right-featured-image {
+          padding: 0;
+          position: absolute;
+          left: 50%;
+          top: 700px;
+          height: 300px;
+          width: 50%; } }
+      @media (max-width: 650px) {
+        .featured .featured-container .option_featured-option-2 .right-featured-image {
+          padding: 0;
+          position: absolute;
+          right: 0%;
+          top: 600px;
+          height: 200px;
+          width: 50%; } }
+      @media (max-width: 400px) {
+        .featured .featured-container .option_featured-option-2 .right-featured-image {
+          padding: 0;
+          position: absolute;
+          right: 0%;
+          top: 600px;
+          height: 200px;
+          width: 50%; } }
+    .featured .featured-container .option_featured-option-3 .image-3 {
+      position: absolute;
+      top: 600px;
+      right: 0;
+      height: 300px;
+      width: 66.66%;
+      z-index: 1; }
+      @media (max-width: 900px) {
+        .featured .featured-container .option_featured-option-3 .image-3 {
+          padding: 0;
+          position: absolute;
+          left: 0%;
+          top: 1200px;
+          height: 300px;
+          width: 100%; } }
+      @media (max-width: 650px) {
+        .featured .featured-container .option_featured-option-3 .image-3 {
+          padding: 0;
+          position: absolute;
+          left: 0%;
+          top: 1000px;
+          height: 200px;
+          width: 100%; } }
+      @media (max-width: 400px) {
+        .featured .featured-container .option_featured-option-3 .image-3 {
+          padding: 0;
+          position: absolute;
+          left: 0%;
+          top: 1000px;
+          height: 200px;
+          width: 100%; } }
+    .featured .featured-container .option_featured-option-3 .headline-3 {
+      padding: 0;
+      position: absolute;
+      top: 640px;
+      left: 8%;
+      right: 68%;
+      width: 17%;
+      text-align: center; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .featured .featured-container .option_featured-option-3 .headline-3 {
+          padding: 0;
+          position: absolute;
+          top: 640px;
+          left: 8%;
+          right: 68%;
+          width: 17%;
+          text-align: center; } }
+      @media (max-width: 900px) {
+        .featured .featured-container .option_featured-option-3 .headline-3 {
+          padding: 0;
+          position: absolute;
+          top: 86%;
+          left: 0%;
+          right: 0%;
+          width: 100%;
+          text-align: center; } }
+      @media (max-width: 650px) {
+        .featured .featured-container .option_featured-option-3 .headline-3 {
+          padding: 0;
+          position: absolute;
+          top: 69%;
+          left: 0%;
+          right: 0%;
+          width: 100%;
+          text-align: center; } }
+      @media (max-width: 400px) {
+        .featured .featured-container .option_featured-option-3 .headline-3 {
+          padding: 0;
+          position: absolute;
+          top: 69%;
+          left: 0%;
+          right: 0%;
+          width: 100%;
+          text-align: center; } }
+    .featured .featured-container .option_featured-option-3 .par-3 {
+      position: absolute;
+      top: 730px;
+      left: 6%;
+      padding: 0;
+      width: 22%;
+      text-align: center; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .featured .featured-container .option_featured-option-3 .par-3 {
+          position: absolute;
+          top: 730px;
+          left: 6%;
+          padding: 0;
+          width: 22%;
+          text-align: center; } }
+      @media (max-width: 900px) {
+        .featured .featured-container .option_featured-option-3 .par-3 {
+          position: absolute;
+          right: 0;
+          left: 5%;
+          top: 90%;
+          text-align: center;
+          width: 90%;
+          padding: 15px 0px 0px 0px; } }
+      @media (max-width: 650px) {
+        .featured .featured-container .option_featured-option-3 .par-3 {
+          position: absolute;
+          right: 0;
+          left: 0;
+          top: 71%;
+          text-align: center;
+          width: 90%;
+          padding-left: 10px;
+          padding-right: 0;
+          padding-top: 15px; } }
+      @media (max-width: 400px) {
+        .featured .featured-container .option_featured-option-3 .par-3 {
+          position: absolute;
+          right: 0;
+          left: 0;
+          top: 71%;
+          text-align: center;
+          width: 90%;
+          padding-left: 10px;
+          padding-right: 0;
+          padding-top: 15px; } }

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tammudu 2', cursive;
+
+}
+
+
+@import "layouts/header";
+@import "sections/featured.scss";
+
+//sections 
+@import "sections/hero";
+@import "sections/muscle-type";
+@import "sections/media";
+

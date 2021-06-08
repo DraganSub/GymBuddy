@@ -1,0 +1,39 @@
+.hero{
+   position: relative;
+   background-image: linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.7)), url("../img/hero-background.jpg");
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: 100vh;
+
+  .container{
+      max-width: 1200px;
+      margin: auto;
+      background-color: black ;
+      z-index: 1;
+      color: white;
+      font-weight: 300;
+      letter-spacing: 2px;
+      font-size: 20px; 
+
+      @media(max-width: 500px){
+         top: 0;
+         max-width:100%;
+      }
+      
+      .quote-hero{
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         font-family: 'Lobster', cursive;
+         position: absolute;
+         text-align: center;
+         font-size: 25px;
+         font-weight: 300;
+        
+            #quote1{
+               padding-bottom: 100px;
+            }
+      } //  end of quote-hero
+   } // end of container
+} // end of hero

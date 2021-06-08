@@ -1,0 +1,85 @@
+.muscle-type .container {
+  display: flex; }
+  @media (max-width: 1200px) {
+    .muscle-type .container {
+      display: block; } }
+  .muscle-type .container .product-item {
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 710px;
+    transition: 0.3s; }
+    .muscle-type .container .product-item:hover {
+      transition: 0.3s; }
+      .muscle-type .container .product-item:hover h3 {
+        display: block; }
+      .muscle-type .container .product-item:hover .overlay {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.5); }
+    @media (max-width: 1200px) {
+      .muscle-type .container .product-item {
+        margin: auto;
+        display: block;
+        margin-top: 160px; } }
+    .muscle-type .container .product-item.grid-6 {
+      width: 50%; }
+      @media (max-width: 1200px) {
+        .muscle-type .container .product-item.grid-6 {
+          margin: auto;
+          width: 100%;
+          background-size: cover; } }
+    .muscle-type .container .product-item.product-lean {
+      background-image: url(../img/lean-body-ex.jpg);
+      background-size: cover; }
+      @media (max-width: 500px) {
+        .muscle-type .container .product-item.product-lean {
+          position: relative;
+          top: 0;
+          height: 400px; } }
+      @media (max-width: 750px) {
+        .muscle-type .container .product-item.product-lean {
+          position: relative;
+          top: 0;
+          height: 400px;
+          width: auto; } }
+    .muscle-type .container .product-item.product-bulk {
+      background-image: url(../img/bulk-body-ex.jpg);
+      background-size: cover; }
+      @media (max-width: 500px) {
+        .muscle-type .container .product-item.product-bulk {
+          position: relative;
+          top: 0;
+          height: 400px;
+          width: auto; } }
+      @media (max-width: 750px) {
+        .muscle-type .container .product-item.product-bulk {
+          position: relative;
+          top: 0;
+          height: 400px;
+          width: auto; } }
+  .muscle-type .container .product-info {
+    padding: 30px; }
+    .muscle-type .container .product-info h3 {
+      font-weight: 400;
+      font-size: 32px;
+      display: none; }
+    .muscle-type .container .product-info p {
+      font-size: 18px; }
+  .muscle-type .container .overlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; }
+    .muscle-type .container .overlay a {
+      text-align: center;
+      display: block;
+      margin: auto;
+      margin-top: 45%;
+      color: black;
+      background: white;
+      width: 130px;
+      padding: 10px;
+      text-decoration: none; }
